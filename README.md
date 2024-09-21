@@ -80,5 +80,5 @@ $x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$
 このコードをコンパイルして実行することで、円周率の近似値を得ることができます。コンパイルにはC++のコンパイラを使用してください。
 
 ```bash
-g++ -o pi_calculator pi_calculator.cpp
-./pi_calculator
+g++ -o gauss_legendre_argo gauss_legendre_argo.cpp
+./gauss_legendre_argo
