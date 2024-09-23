@@ -18,7 +18,7 @@ double mysqrt(double x){ //平方根を求める関数で、ニュートン法�
     if(x == 0){
         return 0;
     }
-    double x0 = x;
+    double x0 = x / 2.0;
     double x1 = 0;
 
     while(true){
