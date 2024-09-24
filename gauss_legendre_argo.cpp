@@ -5,7 +5,7 @@ using namespace std;
 
 #define Num 15 //double型変数で表示する、少数点の桁数を指定。
 
-double myfunc(double x,double n){ //元の関数は元の方程式の左辺が0のとき、xの値は√2となる。
+double myfunc(double x,double n){ //元の関数は元の方程式の右辺が0のとき、xの値は√2となる。
     return x * x -n;
 }
 
